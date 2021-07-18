@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> chỉ số cân năng </title>
+</head>
+<style>
+    table {
+        boder: 1px solid ;
+    }
+</style>
+<body>
+<form name="calculator">
+<table>
+    <tr colspan="4">
+   <input type="text" id="kq" name="display" disabled>
+    </tr>
+    <tr>
+        <td> <input type="button" name="one" value="1" onclick="kq.value+=this.value"/></td>
+        <td> <input type="button" name="one" value="2" onclick="kq.value+=this.value"/></td>
+        <td><input type="button" name="one" value="3" onclick="kq.value+=this.value"/></td>
+        <td> <input type="button" name="one" value="+" onclick="kq.value+=this.value"/></td>
+    </tr>
+    <tr>
+        <td><input type="button" name="one" value="4" onclick="kq.value+=this.value"/></td>
+        <td><input type="button" name="one" value="5" onclick="kq.value+=this.value"/></td>
+        <td><input type="button" name="one" value="6" onclick="kq.value+=this.value"/></td>
+        <td><input type="button" name="one" value="-" onclick="kq.value+=this.value"/></td>
+    </tr>
+    <tr>
+        <td><input type="button" name="one" value="7" onclick="kq.value+=this.value"/></td>
+        <td><input type="button" name="one" value="8" onclick="kq.value+=this.value"/></td>
+        <td><input type="button" name="one" value="9" onclick="kq.value+=this.value"/></td>
+        <td><input type="button" name="one" value="*" onclick="kq.value+=this.value"/></td>
+    </tr>
+    <tr>
+        <td><input type="reset" name="one" value="C" ></td>
+        <td><input type="button" name="one" value="0" onclick="kq.value+=this.value"/></td>
+        <td><input type="button" name="one" value="=" onclick="kq.value=eval(kq.value)"/></td>
+        <td><input type="button" name="one" value="/" onclick="kq.value+=this.value"/></td>
+    </tr>
+
+</table>
+</form>
+<script>
+
+</script>
+</body>

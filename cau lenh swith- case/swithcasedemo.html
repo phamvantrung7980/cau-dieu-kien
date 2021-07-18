@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> swith-case </title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <input type="number" id="month">
+        </td>
+        <td>
+            <button type="submit" onclick="showDay()"> ngày trong tháng </button>
+        </td>
+    </tr>
+</table>
+<script>
+   function showDay() {
+       let thang = parseInt(document.getElementById("month").value);
+       switch (thang) {
+           case 1:
+               alert("thang 1 có 31 ngày ")
+           case 2:
+               alert(" tháng 2 có 28 hoặc 29 ngày ")
+           case 3:
+               alert(" tháng 3 có 31 ngày ")
+           case 4:
+               alert(" tháng 4 có 30 ngày ")
+           case 5:
+               alert(" tháng 5 có 31 ngày ")
+           case 6:
+               alert(" tháng 6 có 30 ngày ")
+           case 7:
+               alert(" tháng 7 có 31 ngày ")
+           case 8:
+               alert(" tháng 8 có 30 ngày ")
+           case 9:
+               alert(" tháng 9 có 31 ngày ")
+           case 10:
+               alert(" tháng 10 có 30 ngày ")
+           case 11:
+               alert(" tháng 11 có 31 ngày ")
+           case 12:
+               alert(" tháng 12 có 30 ngày ")
+
+       }
+   }
+</script>
+</body>
+</html>
